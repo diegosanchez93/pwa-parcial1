@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Diego Sánchez, Cátedra PWA, Comisión DWN3A</title>
+        <meta charset="UTF-8">
+
+        <link  rel="icon"   href="imagenes/favicon-mapa.png" type="image/png" />
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">   
+    </head>
+    <body>
+        <div class="container">
+            <section class="contact-form">
+                <h1>CLIMA APP</h1>
+                <form id="contact-form">
+                    <label for="search">Ingrese País/Ciudad:</label>
+                    <input title="Search" id="search" value="" type="text" required/>
+    
+                    <button id="sendButton" type="button">Buscar</button>
+                </form>
+            </section>
+    
+            <section class="row" id="main"></section>
+            
+            <section class="row" id="map"></section>
+            
+            
+    
+            <script src="js/main.js"></script>  
+            <script src="js/jquery-3.5.1.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>                   
+        </div>
+    </body>
+</html>

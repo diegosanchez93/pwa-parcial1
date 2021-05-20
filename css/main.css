@@ -1,0 +1,92 @@
+@media (max-width: 1199px) {
+   .container {
+       max-width: 100vw !important;
+   }
+}
+
+
+html, body {   
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 30px 0px 30px 0px;
+}
+
+p {
+    text-shadow: 0px 0px 10px white ;
+}
+
+body > div {
+    height: 100vh;  
+    background-color: beige;
+}
+
+section:first-of-type {
+    text-align: center;
+}
+
+section:nth-of-type(2) {
+    width: 800px;   
+    margin: 0 auto;
+    background-color: beige;   
+}
+
+section > p {
+    font-size: 1.5em;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: 1000;
+}
+
+#tabla img {
+    width: 150px;
+}
+
+#tabla > div:first-of-type p {
+    font-size: 1.4em; 
+    text-transform: capitalize;
+}
+
+#tabla > div:nth-child(2) > p:first-of-type, #tabla > div:nth-child(3) > p:first-of-type {
+    font-size: 2.1em;
+    margin-top: 10px; 
+    margin-bottom: 51px;  
+    text-align: center;   
+    font-weight: 1000; 
+}
+
+#tabla > div:nth-child(2) > p:last-of-type, #tabla > div:nth-child(3) > p:last-of-type {
+    font-size: 1.1em;  
+}
+
+#tabla > div:nth-child(2) > p span, #tabla > div:nth-child(3) > p span {
+    width: 100%;
+    font-size: 0.6em;   
+    margin: 12px 0px 0px 0px;
+    justify-content: center;  
+}
+
+#tabla > div:nth-child(4) {
+    margin-top: 0px;  
+    padding: 0px;
+}
+
+#tabla > div:nth-child(4) p {
+    font-size: 1.1em;
+    margin-left: 45px;
+    margin-bottom: 38px;
+}
+
+iframe {  
+    width: 100%;    
+    min-height: 500px;
+}
+
+section:last-of-type { 
+    box-sizing: border-box;
+    background-color: beige;
+    padding: 30px 50px 50px 50px;
+}
